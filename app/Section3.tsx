@@ -2,7 +2,7 @@ import { RiAsterisk } from '@remixicon/react';
 
 export default function Section3() {
   return (
-    <section className="flex flex-col gap-6 px-4 py-6">
+    <section className="max-container flex flex-col gap-6 py-6">
       <div className="flex flex-col gap-6">
         <h2 className="text-secondary-500 flex items-center gap-3 text-6xl font-bold">
           About Us <RiAsterisk size={54} className="text-primary-500" />

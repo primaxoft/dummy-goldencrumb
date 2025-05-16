@@ -2,7 +2,7 @@ import { RiAsterisk, RiArrowRightLine } from '@remixicon/react';
 
 export default function Section5() {
   return (
-    <section className="flex flex-col gap-8 px-4 py-6">
+    <section className="max-container flex flex-col gap-8 py-6">
       <img src="/images/cookies.webp" alt="Cookies" className="rounded-3xl" />
       <div className="flex flex-col gap-8">
         <div className="flex flex-col gap-4">

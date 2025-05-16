@@ -59,3 +59,9 @@ body {
   font-family: 'Times New Roman', Times, serif;
   min-height: 100dvh;
 }
+
+.max-container {
+  margin-inline: auto;
+  max-width: 74rem;
+  @apply px-4 sm:px-8;
+}
