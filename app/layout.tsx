@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Navbar from '@/components/layout/Navbar';
 
 import './globals.css';
+import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
   title: 'Golden Crumb Bakery | Artisanal Bread & Pastries in Petaling Jaya',
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className="antialiased">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
