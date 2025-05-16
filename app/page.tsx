@@ -3,6 +3,7 @@ import Section1 from '@/app/Section1';
 import Section2 from '@/app/Section2';
 import Section3 from '@/app/Section3';
 import Section4 from '@/app/Section4';
+import Section5 from '@/app/Section5';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Section2 />
       <Section3 />
       <Section4 />
+      <Section5 />
     </>
   );
 }
