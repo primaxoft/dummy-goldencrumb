@@ -2,6 +2,7 @@ import Marquee from 'react-fast-marquee';
 import Section1 from '@/app/Section1';
 import Section2 from '@/app/Section2';
 import Section3 from '@/app/Section3';
+import Section4 from '@/app/Section4';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Marquee>
       <Section2 />
       <Section3 />
+      <Section4 />
     </>
   );
 }
