@@ -2,7 +2,7 @@ import { RiArrowRightLine } from '@remixicon/react';
 
 export default function Section1() {
   return (
-    <section className="max-container flex flex-col gap-12 py-6 sm:py-12 md:flex-row md:gap-16">
+    <section className="max-container flex flex-col gap-12 py-6 sm:py-12 lg:flex-row lg:gap-16">
       <div className="flex flex-col gap-12 md:justify-between">
         <div className="flex flex-col gap-12">
           <div className="flex flex-col gap-4">
@@ -39,7 +39,7 @@ export default function Section1() {
           Baked by the best
         </div>
       </div>
-      <img src="/images/curry-puff.webp" alt="Curry puff" className="rounded-3xl md:max-w-[31.25rem]" />
+      <img src="/images/curry-puff.webp" alt="Curry puff" className="rounded-3xl md:max-w-[31.25rem] md:self-center" />
     </section>
   );
 }
