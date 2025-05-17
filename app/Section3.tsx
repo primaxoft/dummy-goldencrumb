@@ -2,13 +2,13 @@ import { RiAsterisk } from '@remixicon/react';
 
 export default function Section3() {
   return (
-    <section className="max-container flex flex-col gap-6 py-6">
+    <section className="max-container flex flex-col gap-6 py-6 sm:gap-8 sm:py-16">
       <div className="flex flex-col gap-6">
         <h2 className="text-secondary-500 flex items-center gap-3 text-6xl font-bold">
           About Us <RiAsterisk size={54} className="text-primary-500" />
         </h2>
-        <div className="flex flex-col gap-6">
-          <strong className="text-lg">
+        <div className="flex flex-col gap-6 sm:flex-row sm:gap-40">
+          <strong className="text-lg text-nowrap">
             From The Community
             <br />
             to The Community
@@ -22,13 +22,13 @@ export default function Section3() {
         </div>
       </div>
       <img src="/images/cafe.webp" alt="People at a cafe" className="h-[25rem] rounded-3xl object-cover" />
-      <div className="flex flex-col gap-8">
-        <h4 className="text-secondary-500 text-justify text-4xl font-bold">
+      <div className="flex flex-col gap-8 sm:flex-row sm:items-center">
+        <h4 className="text-secondary-500 text-justify text-4xl font-bold sm:order-1">
           &ldquo;Rooted in tradition, crafted with heart — every loaf tells our story.&rdquo;
         </h4>
-        <img src="/images/cookies-square.webp" alt="Cookies on a table" className="rounded-3xl" />
+        <img src="/images/cookies-square.webp" alt="Cookies on a table" className="rounded-3xl sm:w-80" />
       </div>
-      <div className="flex flex-col items-center gap-8 py-8">
+      <div className="py-8: grid grid-cols-1 items-center gap-8 sm:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col items-center gap-4">
           <div className="text-secondary-500 p-2.5 text-4xl font-bold">100+</div>
           <div className="text-primary-500 p-2.5 text-xl font-bold">Projects Completed</div>
