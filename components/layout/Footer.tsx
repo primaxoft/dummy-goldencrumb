@@ -4,13 +4,13 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <div className="bg-foreground">
-      <footer className="max-container flex flex-col gap-6 px-4 py-6 text-white">
-        <div className="flex flex-col items-center gap-8">
+      <footer className="max-container flex flex-col gap-6 px-4 py-6 text-white sm:py-16">
+        <div className="flex flex-col items-center gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div className="text-primary-500 flex items-center gap-1 text-2xl font-bold">
             <RiAsterisk className="text-secondary-500" />
             goldencrumb.
           </div>
-          <nav className="flex flex-col items-center gap-12">
+          <nav className="flex flex-col items-center gap-12 sm:flex-row">
             <div className="flex flex-col gap-2">
               <strong className="text-primary-500 p-2">Company</strong>
               <ul className="flex flex-col gap-2">
@@ -44,7 +44,7 @@ export default function Footer() {
           </nav>
         </div>
         <hr />
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 sm:gap-8">
           <div className="flex items-center justify-between">
             <div className="p-2.5">&copy; {new Date().getFullYear()} Goldencrumb.</div>
             <div className="flex gap-2.5 pr-2">
