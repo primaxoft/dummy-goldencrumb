@@ -2,12 +2,12 @@ import { RiAsterisk, RiArrowRightLine } from '@remixicon/react';
 
 export default function Section5() {
   return (
-    <section className="max-container flex flex-col gap-8 py-6">
-      <img src="/images/cookies.webp" alt="Cookies" className="rounded-3xl" />
+    <section className="max-container flex flex-col gap-8 py-6 sm:py-16 md:flex-row">
+      <img src="/images/cookies.webp" alt="Cookies" className="rounded-3xl md:max-w-sm md:self-center lg:max-w-lg" />
       <div className="flex flex-col gap-8">
         <div className="flex flex-col gap-4">
           <h2 className="text-secondary-500 flex gap-2 text-6xl font-bold">
-            Keep Updated <RiAsterisk className="text-primary-500" size={120} />
+            Keep Updated <RiAsterisk className="text-primary-500 sm:h-14 sm:w-14" size={120} />
           </h2>
           <p>
             Sign up to our newsletter for promotion and discount. Launch of new products bunch of fun stuff like that!
